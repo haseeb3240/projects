@@ -84,7 +84,10 @@ a:hover{
 	box-shadow: 2px 2px 3px #999;
 }
 
-
+.btn a{
+  color: white;
+  font-style: bold;
+}
 
 
 
