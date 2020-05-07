@@ -1,0 +1,579 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.top{
+    background-color: rgb(77, 77, 224);
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.head-line{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+}
+
+.social1{
+    display: inline-block;  
+    flex-wrap: wrap;
+    width:60px;
+    height:90px;
+}
+
+.facebook{
+    position: relative;
+    top: 30px;      width: 90px !important;	
+    color:white;
+    font-size: 30px;
+    border-radius:50px;
+    box-shadow: 2px 2px 3px black;
+    padding: 8px;
+}
+
+.twitter{
+    position: relative;
+    top: 30px;  
+	color:rgb(243, 241, 241);
+    font-size:30px;
+    border-radius:50px;
+    box-shadow: 2px 2px 3px black;
+    padding: 8px;
+}
+
+.insta{
+    position: relative;
+    top: 30px;  
+	color:rgb(243, 241, 241);
+    font-size:30px;
+    border-radius:50px;
+    box-shadow: 2px 2px 3px black;
+    padding: 8px;
+}
+
+.utube{
+    position: relative;
+    top: 30px;  
+	color:rgb(243, 241, 241);
+    font-size:30px;
+    border-radius:50px;
+    box-shadow: 2px 2px 3px black;
+    padding: 8px;
+}
+
+.whatsapp{
+    position: relative;
+    top: 30px;  
+	color:rgb(243, 241, 241);
+    font-size:30px;
+    border-radius:50px;
+    box-shadow: 2px 2px 3px black;
+    padding: 8px;
+}
+
+.facebook:hover, .twitter:hover, .insta:hover, .utube:hover, .whatsapp:hover{
+    background-color: black;
+}
+
+
+.button2{
+    text-decoration: none;
+    color: green;
+}
+
+.button1{
+    list-style: none;
+    width: 110px; 
+    height: 40px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.nav{
+    position: sticky;
+    padding: 2px;
+    top: 5px;
+}
+
+.hovv{
+    position: absolute;
+    font-size: 30px;
+    top: 40px;
+    right: 60px;
+}
+
+.menu{
+    display: inline;
+    position: relative;
+    right: -200px;
+    top: 50px;
+
+}
+
+.menu ul{
+    display: inline-block;
+    list-style: none;
+}
+
+.menu ul li{
+    width: 150px;
+    padding: 5px;
+    
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+
+.active, .menu ul li:hover{
+    background:rgb(204, 208, 209);
+    border-bottom: 1px solid black;
+}
+
+.sub-menu{
+    display: none;
+}
+
+.menu ul li:focus-within > .sub-menu{
+    display: inline-block;
+    position: absolute;
+    top: 48px;
+    right: -245px;
+    z-index: 1;
+}
+
+.menu ul li:focus-within > .sub-menu ul{
+    display: inline-block;
+    position: relative;
+    margin-top: -2px;
+    margin-right: 400px;
+    z-index: 1;
+}
+.sub-menu1{
+    display: none;
+}
+
+.menu ul li:focus-within > .sub-menu1{
+    display: inline-block;
+    position: absolute;
+    top: 90px;
+    right: -245px;
+    z-index: 1;
+}
+
+.menu ul li:focus-within > .sub-menu1 ul{
+    display: inline-block;
+    position: relative;
+    margin-top: -2px;
+    margin-right: 400px;
+    z-index: 1;
+}
+
+.menu{
+    display: none;
+}
+
+.hovv:focus-within > .menu{
+    display: inline-block;
+    position: absolute;
+    right: 40px;
+}
+
+
+.para{
+    background-color: rgb(77, 77, 224);
+    text-align: center;
+    margin: 5px 10px 10px 10px;
+    font-size: 2vw;
+    height: 30px;
+}
+
+.green{
+    color: rgb(46, 192, 46);
+    display: inline-block;
+}
+.blue{
+    color: rgb(77, 77, 224);
+    display: inline-block;
+}
+
+.white{
+    color: white;
+    display: inline-block;
+}
+
+.saylani{
+    position: absolute;
+    top: 10px;
+    width: 33%;
+    height: auto;
+    
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+h1{
+    text-align: center;
+    font-size: 3vw;
+}
+
+.web2{
+    width: 70px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+
+.bimg{
+    margin-top: 150px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.line{
+    font-weight: 20;
+    color: green;
+    display: inline-block;
+    text-align: center;
+}
+.intro{
+    text-align: center;
+}
+
+.intro-para{
+    font-size: 25px;
+    color: gray;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 2;
+}
+
+/* .table1{
+    border-collapse: collapse;
+}
+
+.table1 tr td{
+    background-color: rgb(77, 77, 224);
+    width: 700px;
+    height: 300px;
+    font-size: 30px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    font-family:  Calibri;
+    color: rgb(51, 202, 51);
+    font-weight: 20;  
+}
+
+.number{
+    display: inline;
+    color: white;  
+}
+
+.table1 tr td i{
+    font-size: 60px;
+} */
+
+
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(77, 77, 224);
+}
+
+.sub1{
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    padding-top: 90px;
+    font-size: 40px;
+    color: wheat;
+}
+
+
+
+
+/* .table2{
+    border-spacing: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table2 tr td{
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    box-shadow: 1px 1px 30px grey;
+}
+
+.table2 tr td img{
+    width: 30%;
+    height: auto;
+}
+
+.table2 tr td{
+    color: blue;
+    font-size: 20px;
+    font-weight: 80;
+    font-style: bold;
+}
+
+.table2 tr td a input{
+    width: 30%;
+    height: auto;
+} */
+
+
+
+
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cont2{
+    width: 500px;
+    height: 180px;
+    box-shadow: 0px 2px 20px grey;
+    text-align: center;
+    margin-top:  40px;
+    padding-top: 60px;
+}
+
+
+.heading{
+    color: blue;
+    margin-left: 30px;
+    font-size: 30px;
+    margin-top: 60px;
+}
+
+/* .table3{
+    margin-left: 30px;
+    margin-right: 30px;
+    border-spacing: 30px;
+}
+
+.table3 tr td{
+    width: 800px;
+    height: 120px;
+    text-align: left;
+    color: blue;
+    font-size: 25px;
+    background-color: rgb(243, 241, 241);
+}
+
+
+.table3 tr td img{
+    width: 10%;
+    height: auto; 
+}
+*/
+
+
+
+
+
+
+.container3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.sub3{
+    width: 600px;
+    height: 100px;
+    background-color: cornsilk;
+    text-align: left;
+    font-size: 25px;
+    color: blue;
+    margin-top:  20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.sub3 img{
+    width: 10%;
+    height: auto;
+}
+
+.events{
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.events a{
+    text-decoration-style: inherit;
+    color: blue;
+}
+
+.container4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px 30px 200px 30px;
+}
+
+.container4 div a input{
+    width: 80%;
+    height: auto;
+    margin: 30px 30px 30px 30px;
+}
+
+.container5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.788);
+    
+}
+
+.sub5{
+    width: 500px;
+    height: 400px;
+    color: lightgrey;
+    margin: 100px 60px 80px 30px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    margin-top: 60px;
+}
+
+.sub5 a{
+    text-decoration-style: none;
+    color: lightgrey;
+}
+.sub5-1{
+    width: 500px;
+    height: 400px;
+    color: lightgrey;
+    margin: 60px 30px 60px 30px;
+}
+
+.sub5 i{
+    color: green;
+}
+
+
+.facebook2{
+    position: relative;
+    top: 20px;
+    left: 0px;
+	width:60px;
+	height:60px;
+    color:white;
+    background-color: blue;
+    font-size:30px;
+    border-radius:50px;
+    box-shadow: 2px 2px 3px white;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.twitter2{
+    position: relative;
+    top: 20px;
+    left: 20px;
+	width:60px;
+	height:60px;
+    color:rgb(243, 241, 241);
+    background-color: blue;
+    font-size:30px;
+    border-radius:50px;
+    box-shadow: 2px 2px 3px white;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.insta2{
+    position: relative;
+    top: 20px;
+    left: 40px;
+	width:60px;
+	height:60px;
+    color:rgb(243, 241, 241);
+    background-color: blue;
+    font-size:30px;
+    border-radius:50px;
+    box-shadow: 2px 2px 3px white;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.utube2{
+    position: relative;
+    top: 20px;
+    left: 60px;
+    width:60px;
+	height:60px;
+    color:rgb(243, 241, 241);
+    background-color: blue;
+    font-size:30px;
+    border-radius:50px;
+    box-shadow: 2px 2px 3px white;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.whatsapp2{
+    position: relative;
+    top: 20px;
+    left: 80px;
+	width:60px;
+	height:60px;
+    color:rgb(243, 241, 241);
+    background-color: blue;
+    font-size:30px;
+    border-radius:50px;
+    box-shadow: 2px 2px 3px white;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.facebook2:hover, .twitter2:hover, .insta2:hover, .utube2:hover, .whatsapp2:hover{
+background-color: black;
+}
+
+
+.button{
+    background-color: rgb(216, 215, 238) ;
+    color: blueviolet;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    font-size: large
+}
+.button a{
+    text-decoration: none;
+  }
+.button a:hover{
+    color: grey;
+}
+

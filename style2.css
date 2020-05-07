@@ -1,0 +1,47 @@
+.table{
+    background-color:rgb(216, 215, 238);
+    color: black;
+    box-shadow: 22px 12px 10px gray;
+    border-radius: 15px;
+    border: 4px groove black;
+    min-width: 50px; max-width: 1000px; margin: auto;
+  }
+
+a{
+    text-decoration: none;
+    
+}
+   
+
+  h4{
+    text-align: center;
+    color: red;
+  }
+
+  div{
+      min-width: 50px; max-width: 990px; margin: auto;
+      border-radius: 15px;
+      text-align: center;
+      text-shadow: 2px 5px 5px black;
+      line-height: 10px;
+      font-size: 50px;
+      background-color: yellow;
+      border: 4px groove grey;
+      box-shadow: 22px 12px 10px gray;
+  }
+
+  .button{
+    background-color: rgb(216, 215, 238) ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    font-size: large;
+  }
+
+  body{
+    background-image: url("images/background.jpg");
+  }
+  a:hover{
+    color: grey;
+  }
