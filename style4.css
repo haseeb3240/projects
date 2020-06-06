@@ -1,0 +1,309 @@
+.navbar{
+    background-color: rgba(95, 0, 0, 0.999) !important;
+    position: sticky !important;
+}
+
+
+
+#navbarText a,#navbarText li, #navbarText button{
+    color: white !important;
+    border: none !important;
+}
+.dropdown-divider{
+  color: black !important;
+}
+.navbar-brand img{
+    width: 200px;
+    height: 80px;
+}
+
+.nav-item i{
+  font-size: 15px !important;
+  color: white !important;
+  background-color: black !important;
+}
+
+.btn i{
+  background-color: black;
+  font-size: 20px;
+  color: white;
+}
+
+
+.bestProducts{
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    color: rgba(95, 0, 0, 0.999) !important;
+    background-color: rgb(245, 227, 203);
+}
+
+.center{
+  text-align: center;
+}
+
+
+/* If the screen size is 1080px or less, set the .hasee display none */
+@media only screen and (max-width: 1080px) {
+    .hasee{
+      display: none;  
+    }
+  }
+
+/* If the screen size is 601px or less, set the .hasee display none */
+@media only screen and (max-width: 750px) {
+    .hasee, .hasee1{
+      display: none;
+    }
+  }
+
+body, html {
+    height: 100%;
+  }
+
+.parallax1{
+  
+    /* The image used */
+    background-image: url("images/parallax1.jpg");
+
+    /* Full height */
+    height: 75%;
+    width: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.parallax2{
+  
+    /* The image used */
+    background-image: url("images/parallax2.jpg");
+
+    /* Full height */
+    height: 75%;
+    width: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed
+@media only screen and (max-device-width: 1280px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+} */
+
+
+
+.mtimg:hover{
+  border: 8px solid rgba(95, 0, 0, 0.999) !important;
+  border-radius: 100%;
+  transition: 0.5s;
+
+}
+
+
+
+
+
+.foot{
+  text-align: center;
+  font-size: 25px;
+}
+
+.mtpost{
+  text-align: center;
+  font: 40px;
+}
+.foot a{
+  color: black;
+}
+.foot a:hover{
+  color: rgba(95, 0, 0, 0.746);
+}
+
+
+
+.fas, .far{
+  font-size: 70px;
+  margin-top: -35px;
+  background-color: white;
+}
+.fas{
+  color: brown;
+}
+.fas1{
+  color: black;
+}
+.far{
+  color: rgba(0, 128, 0, 0.808);
+}
+.fa-redo:hover, .fas1:hover, .clock:hover{
+  color: orange;
+  transition: 0.5s;
+}
+
+
+
+.names{
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  color: rgba(95, 0, 0, 0.999) !important;
+}
+.our-spec{
+  margin-top: 80px;
+}
+
+
+.bottom, .bottom2, .bottom3{
+  background-image:linear-gradient(rgba(161, 60, 60, 0.5),rgba(161, 60, 60, 0.5)), url(images/bottom.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.bottom, .bottom2{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.bottom2{
+  border-bottom: 1px solid white;
+  padding-bottom: 60px;
+}
+
+
+.about{
+  width: 200px;
+  text-align: justify;
+}
+.font{
+  font-family: 'Orbitron', sans-serif;
+  color: #f4b323;
+  padding-top: 30px;
+
+}
+.site-links{
+  list-style-type: none;
+  line-height:2;
+}
+.site-links li a{
+  color: white;
+}
+.site-links li a:hover{
+  color: #f4b323;
+  transition: 0.5s;
+  line-height: 1.5;
+}
+.site-links-row{
+  list-style-type: none;
+  float: left;
+}
+.site-links-row li a{
+  color: white;
+}
+.site-links-row li a:hover{
+  color: #f4b323;
+  transition: 0.5s;
+}
+
+.contact{
+  line-height: 2;
+}
+
+.many{
+  padding-left: 100px;
+  border-left: 1px solid white;
+}
+.info{
+  padding-right: 100px;
+  border-right: 1px solid white;
+}
+
+
+
+.contact-phone i, .office-hours i,.office-mail a i{
+  color: white;
+  background: none;
+  font-size: 20px;
+}
+
+.office-mail:hover i{
+  color: #f4b323;
+}
+
+.site-links-row li{
+  display: inline-block;
+  
+}
+.site-links-row li a i{
+  font-size: 30px;
+}
+
+
+.bottom3{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer1 p i{
+  font-size: 15px;
+  background: none;
+  color: white;
+}
+
+.footer1 p{
+  color: white;
+  padding: 20px;
+}
+
+.footer2 ul li{
+  list-style-type: none;
+  display: inline;
+  padding: 10px;
+}
+.footer2{
+  padding-top: 20px;
+}
+
+
+
+
+
+.divider-text {
+  position: relative;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.divider-text span {
+  padding: 7px;
+  font-size: 12px;
+  position: relative;   
+  z-index: 2;
+}
+.divider-text:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  top: 55%;
+  left: 0;
+  z-index: 1;
+}
+
+.btn-facebook {
+  background-color: #405D9D;
+  color: #fff;
+}
+.btn-twitter {
+  background-color: #42AEEC;
+  color: #fff;
+}

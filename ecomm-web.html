@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <link rel="stylesheet" href="style4.css">
+
+  <script>
+    $(document).ready(function () {
+      $('#newsLetter').modal('show');
+    });
+  </script>
+
+  <title> Mewajaat </title>
+</head>
+
+<body>
+
+  <!-- NewsLetter -->
+  <div class="modal fade" id="newsLetter" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+              aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="exampleModalLabel">New message</h4>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="recipient-name" class="control-label">Recipient:</label>
+              <input type="text" class="form-control" id="recipient-name">
+            </div>
+            <div class="form-group">
+              <label for="message-text" class="control-label">Message:</label>
+              <textarea class="form-control" id="message-text"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Send message</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <!-- Navbar -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <a class="navbar-brand" href="#"> <img src="images/mewajaat.jpg" alt=""> </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+      aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse mr-5" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+      </ul>
+      <span class="navbar-text">
+        <ul class="navbar-nav mr-5">
+          <li class="nav-item active">
+            <!-- Example single danger button -->
+<div class="btn-group mr-5">
+  <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <i class="fas fa-user"></i>
+  </button>
+  <div class="dropdown-menu">
+    <form class="px-4 py-3">
+      <div class="form-group">
+        <label for="exampleDropdownFormEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+      </div>
+      <div class="form-group">
+        <label for="exampleDropdownFormPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+      </div>
+      <div class="form-group">
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="dropdownCheck">
+          <label class="form-check-label" for="dropdownCheck">
+            Remember me
+          </label>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-danger">Sign in</button>
+    </form>
+
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="signup.html" target="_blank" style="color: black !important;">New around here? Sign up</a>
+    <a class="dropdown-item" href="#" style="color: black !important;">Forgot password?</a>
+  </div>
+</div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+          </li>
+        </ul>
+      </span>
+    </div>
+  </nav>
+
+  <!-- Slider -->
+
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/slider3.jpg" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="images/slider4.jpg" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="images/slider2.jpg" class="d-block w-100">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only"">Previous</span>
+      </a>
+      <a class=" carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only"">Next</span>
+      </a>
+    </div>
+
+
+
+
+    <!-- Best Products -->
+
+    <br><br>
+    <h3 class=" bestProducts">Best Products</h3>
+
+          <div class="center">
+            &#x1F7CA; &#x2B50; &#x1F7CA;
+          </div>
+
+          <br><br>
+
+
+          <div id="carouselExampleControls" class="carousel slide py-3 px-3"
+            style="background-color: rgba(95, 0, 0, 0.999);" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="card-deck">
+                  <div class="card bg-light">
+                    <img src="images/bp1.jpg" class="card-img-top"
+                      style="height: 270px; width: 350px;padding-left: 20px;" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title" style="color: rgba(95, 0, 0, 0.999);font-weight: bold;">Hazelnuts </h5>
+                      <p class="card-text">Want to impress your guests this Eid with sweet tasting, cream colored
+                        kernel.</p>
+                      <div class="card-footer">
+                        <p class="card-text" style="color: rgba(95, 0, 0, 0.999);font-weight: bold;"> RS.1000
+                          <button type="button" class="btn btn-outline-danger" style="margin-left: 25px;">Buy
+                            Now</button>
+                          <br> <small class="text-muted"><del> 1200 </del> 20% </small></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card bg-light hasee">
+                    <img src="images/bp2.jpg" class="card-img-top"
+                      style="height: 270px; width: 350px;padding-left: 20px;" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title" style="color: rgba(95, 0, 0, 0.999);font-weight: bold;"> Cashew </h5>
+                      <p class="card-text">What's so better, fresh and Healthy at a same time?
+                        Yeah you guessed it right,its one and only Mewajaat's Fresh Cashew!</p>
+                      <div class="card-footer">
+                        <p class="card-text" style="color: rgba(95, 0, 0, 0.999);font-weight: bold;"> RS.1400
+                          <button type="button" class="btn btn-outline-danger" style="margin-left: 15px;">Buy
+                            Now</button>
+                          <br> <small class="text-muted"><del> 1800 </del> 15% </small></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card bg-light hasee1">
+                    <img src="images/bp3.png" class="card-img-top"
+                      style="height: 270px; width: 350px;padding-left: 20px;" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title" style="color: rgba(95, 0, 0, 0.999);font-weight: bold;">Hazelnuts </h5>
+                      <p class="card-text">Want to have better dates in Iftar</p>
+                      <div class="card-footer">
+                        <p class="card-text" style="color: rgba(95, 0, 0, 0.999);font-weight: bold;"> RS.800
+                          <button type="button" class="btn btn-outline-danger" style="margin-left: 15px;">Buy
+                            Now</button>
+                          <br> <small class="text-muted"><del> 1000 </del> 20% </small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="carousel-item">
+                <div class="card-deck">
+                  <div class="card bg-light">
+                    <img src="images/bp4.png" class="card-img-top"
+                      style="height: 270px; width: 350px;padding-left: 20px;" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title" style="color: rgba(95, 0, 0, 0.999);font-weight: bold;">Dates Pack </h5>
+                      <p class="card-text">Mewajaat supreme Aseel dates red-brown, thick-skinned soft sweet date suited
+                        loaded with natural sweetness taste like all-natural candy.</p>
+                      <div class="card-footer">
+                        <p class="card-text" style="color: rgba(95, 0, 0, 0.999);font-weight: bold;"> RS.1500
+                          <button type="button" class="btn btn-outline-danger" style="margin-left: 25px;">Buy
+                            Now</button>
+                          <br> <small class="text-muted"><del> 1650 </del> 10% </small></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card bg-light hasee">
+                    <img src="images/bp5.png" class="card-img-top"
+                      style="height: 270px; width: 350px;padding-left: 20px;" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title" style="color: rgba(95, 0, 0, 0.999);font-weight: bold;">Dates stuffed with
+                        Cashews </h5>
+                      <p class="card-text">Mewajaat Assorted stuffed dates cashews with dates they're nature's crunchy
+                        sweetly flavored and healthy order your favorite stuffed dates now.</p>
+                      <div class="card-footer">
+                        <p class="card-text" style="color: rgba(95, 0, 0, 0.999);font-weight: bold;"> RS.420
+                          <button type="button" class="btn btn-outline-danger" style="margin-left: 15px;">Buy
+                            Now</button>
+                          <br> <small class="text-muted"><del> 500 </del> 15% </small></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card bg-light hasee1">
+                    <img src="images/bp6.png" class="card-img-top"
+                      style="height: 270px; width: 350px;padding-left: 20px;" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title" style="color: rgba(95, 0, 0, 0.999);font-weight: bold;">Dates stuffed with
+                        Almonds </h5>
+                      <p class="card-text">Mewajaat Assorted stuffed dates eat double healthy Almonds with dates they're
+                        nature's sweet,crunch and healthy order your favorite stuffed dates.</p>
+                      <div class="card-footer">
+                        <p class="card-text" style="color: rgba(95, 0, 0, 0.999);font-weight: bold;"> RS.400
+                          <button type="button" class="btn btn-outline-danger" style="margin-left: 15px;">Buy
+                            Now</button>
+                          <br> <small class="text-muted"><del> 600 </del> 20% </small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a style="width: 140px;" class="carousel-control-prev" href="#carouselExampleControls" role="button"
+              data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a style="width: 140px;" class="carousel-control-next" href="#carouselExampleControls" role="button"
+              data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+
+
+
+
+
+          <div class="parallax1"> </div>
+
+
+
+
+
+
+
+
+          <!-- Eid Special -->
+
+          <br><br><br><br>
+          <h3 class="bestProducts">Eid Special</h3>
+
+          <div class="center">
+            &#x1F7CA; &#x2B50; &#x1F7CA;
+          </div>
+
+          <br><br>
+
+          <div class="card-deck px-3 py-3" style="background-color: rgba(95, 0, 0, 0.999);">
+            <div class="card col-6">
+              <img src="images/es1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" style="color: rgba(95, 0, 0, 0.999);font-weight: bold;">Eid-ul-Fitr Gift Pack
+                </h5>
+                <p class="card-text">Eid-ul-Fitr Gift Pack give an encouraging gift with this adorable basket filled
+                  with Sweet chocolate and dry fruits.</p>
+              </div>
+              <div class="card-footer">
+                <p class="card-text" style="color: rgba(95, 0, 0, 0.999);font-weight: bold;"> RS.2500
+                  <button type="button" class="btn btn-outline-danger" style="margin-left: 25px;">Buy Now</button>
+                  <br> <small class="text-muted"><del> 3000 </del> 15% </small></p>
+              </div>
+            </div>
+            <div class="card col-6">
+              <img src="images/es2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" style="color: rgba(95, 0, 0, 0.999);font-weight: bold;">Sheer Khurma</h5>
+                <p class="card-text">Enjoy this Eid special now available in Mewajaat get Sheer Khurma & Kheer essential
+                  items Packs.</p>
+              </div>
+              <div class="card-footer">
+                <p class="card-text" style="color: rgba(95, 0, 0, 0.999);font-weight: bold;"> RS.1100
+                  <button type="button" class="btn btn-outline-danger" style="margin-left: 25px;">Buy Now</button>
+                  <br> <small class="text-muted"><del> 1500 </del> 23% </small></p>
+              </div>
+            </div>
+            <div class="card col-6">
+              <img src="images/es3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" style="color: rgba(95, 0, 0, 0.999);font-weight: bold;">Kheer Essentials</h5>
+                <p class="card-text">Enjoy this Eid special now available in Mewajaat get Sheer Khurma & Kheer essential
+                  items Packs.</p>
+              </div>
+              <div class="card-footer">
+                <p class="card-text" style="color: rgba(95, 0, 0, 0.999);font-weight: bold;"> RS.1100
+                  <button type="button" class="btn btn-outline-danger" style="margin-left: 25px;">Buy Now</button>
+                  <br> <small class="text-muted"><del> 1500 </del> 23% </small></p>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+          <div class="parallax2"> </div>
+
+
+
+
+
+          <!-- Dry fruits -->
+
+          <br><br><br><br>
+          <h3 class="bestProducts">Dry Fruits</h3>
+
+          <div class="center">
+            &#x1F7CA; &#x2B50; &#x1F7CA;
+          </div>
+
+          <br><br>
+
+          <div class="card-deck px-3 py-3" style="background-color: rgba(95, 0, 0, 0.999);">
+            <div class="card col-6">
+              <img src="images/df1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" style="color: rgba(95, 0, 0, 0.999);font-weight: bold;">Walnuts
+                </h5>
+                <p class="card-text">Mewajaat USA Walnuts Best Premium Quality Walnuts Lowest Price In Just Only 650/-
+                  Per KG Don't get up Just Order Online We At Your Door Steps ..</p>
+              </div>
+              <div class="card-footer">
+                <p class="card-text" style="color: rgba(95, 0, 0, 0.999);font-weight: bold;"> RS.650
+                  <button type="button" class="btn btn-outline-danger" style="margin-left: 25px;">Buy Now</button>
+                  <br> <small class="text-muted"><del> 850 </del> 20% </small></p>
+              </div>
+            </div>
+            <div class="card col-6">
+              <img src="images/df2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" style="color: rgba(95, 0, 0, 0.999);font-weight: bold;">Mix Dry Fruits</h5>
+                <p class="card-text">Almonds for your taste buds, walnuts for your brain, cashew for your liking's and
+                  raisin for sweetness.All glory in one pack; enjoy this winter with Mewajaat's Mix Dry Fruits..</p>
+              </div>
+              <div class="card-footer">
+                <p class="card-text" style="color: rgba(95, 0, 0, 0.999);font-weight: bold;"> RS.1000
+                  <button type="button" class="btn btn-outline-danger" style="margin-left: 25px;">Buy Now</button>
+                  <br> <small class="text-muted"><del> 1200 </del> 20% </small></p>
+              </div>
+            </div>
+            <div class="card col-6">
+              <img src="images/df3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" style="color: rgba(95, 0, 0, 0.999);font-weight: bold;">Channa</h5>
+                <p class="card-text">Roasted Chickpeas packed full of flavor and crunch and dont forget the health
+                  benefits too!
+                  #Food.</p>
+              </div>
+              <div class="card-footer">
+                <p class="card-text" style="color: rgba(95, 0, 0, 0.999);font-weight: bold;"> RS.1100
+                  <button type="button" class="btn btn-outline-danger" style="margin-left: 25px;">Buy Now</button>
+                  <br> <small class="text-muted"><del> 1500 </del> 23% </small></p>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+          <!-- Our Team -->
+
+          <br><br><br><br>
+          <h3 class="bestProducts">Our Team</h3>
+
+          <div class="center">
+            &#x1F7CA; &#x2B50; &#x1F7CA;
+          </div>
+
+          <br><br>
+
+
+          <div class="card-deck">
+            <div class="card">
+              <div class="bg-warning">
+                <img src="images/quality tester.webp" class="card-img-top rounded-circle px-4 py-5 mtimg" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title bestProducts">Anti Najma</h5>
+                <p class="text-muted mtpost">Quality Tester</p>
+              </div>
+              <div class="card-footer mt-n4 foot">
+
+                <a href="#" class="px-1"><i class="fab fa-facebook-square"></i></a>
+                <a href="#" class="px-1"> <i class="fab fa-twitter"></i></a>
+                <a href="#" class="px-1"> <i class="fab fa-google-plus-g"></i></a>
+                <a href="#" class="px-1"><i class="fab fa-instagram"></i></a>
+
+              </div>
+            </div>
+            <div class="card">
+              <div class="bg-warning">
+                <img src="images/business man.webp" class="card-img-top rounded-circle px-4 py-5 mtimg" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title bestProducts">Bhaa Bakhtawar</h5>
+                <p class="text-muted mtpost">Business Man</p>
+              </div>
+              <div class="card-footer mt-n4 foot">
+
+                <a href="#" class="px-1"><i class="fab fa-facebook-square"></i></a>
+                <a href="#" class="px-1"> <i class="fab fa-twitter"></i></a>
+                <a href="#" class="px-1"> <i class="fab fa-google-plus-g"></i></a>
+                <a href="#" class="px-1"><i class="fab fa-instagram"></i></a>
+
+              </div>
+            </div>
+            <div class="card">
+              <div class="bg-warning">
+                <img src="images/store manager.webp" class="card-img-top rounded-circle px-4 py-5 mtimg" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title bestProducts">Bhaa Imtiaz</h5>
+                <p class="text-muted mtpost">Store Manager</p>
+              </div>
+              <div class="card-footer mt-n4 foot">
+
+                <a href="#" class="px-1"><i class="fab fa-facebook-square"></i></a>
+                <a href="#" class="px-1"> <i class="fab fa-twitter"></i></a>
+                <a href="#" class="px-1"> <i class="fab fa-google-plus-g"></i></a>
+                <a href="#" class="px-1"><i class="fab fa-instagram"></i></a>
+
+              </div>
+            </div>
+            <div class="card">
+              <div class="bg-warning">
+                <img src="images/manager.webp" class="card-img-top rounded-circle px-4 py-5 mtimg" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title bestProducts">Anti Suraiya</h5>
+                <p class="text-muted mtpost">Manager</p>
+              </div>
+              <div class="card-footer mt-n4 foot">
+
+                <a href="#" class="px-1"><i class="fab fa-facebook-square"></i></a>
+                <a href="#" class="px-1"> <i class="fab fa-twitter"></i></a>
+                <a href="#" class="px-1"> <i class="fab fa-google-plus-g"></i></a>
+                <a href="#" class="px-1"><i class="fab fa-instagram"></i></a>
+
+              </div>
+            </div>
+          </div>
+          
+
+
+
+
+
+
+
+
+          <div class="card-deck our-spec">
+            <div class="card our-spec">
+              <a href="#" class="mx-auto"><i class="fas fa-redo"></i></a>
+              <div class="card-body">
+                <h5 class="card-title names">Money Back Guarantee</h5>
+                <p class="card-text" style="text-align: center;">Dolor sit amet consecteur adipisicing elitsed do
+                  eiusmod tempor incididunt ulabore et dolore ulabore et dolore.</p>
+              </div>
+            </div>
+            <div class="card our-spec">
+              <a href="#" class="mx-auto"><i class="fas fa-shipping-fast fas1"></i></a>
+              <div class="card-body">
+                <h5 class="card-title names">
+                  Free Shipping</h5>
+                <p class="card-text" style="text-align: center;"">Dolor sit amet consecteur adipisicing elitsed do eiusmod tempor incididunt ulabore et dolore ulabore et dolore.</p>
+              </div>
+            </div>
+            <div class=" card our-spec">
+                  <a href="#" class="mx-auto"><i class="far fa-clock clock"></i></a>
+                <div class="card-body">
+                  <h5 class="card-title names">24/7 Customer Service</h5>
+                  <p class="card-text" style="text-align: center;"">Dolor sit amet consecteur adipisicing elitsed do eiusmod tempor incididunt ulabore et dolore ulabore et dolore.</p>
+              </div>
+            </div>
+          </div>
+          <br> <br> <br> <br>
+
+
+
+        <div class=" bottom">
+                  <div class="about">
+                    <h4 class="font">About us</h4>
+                    <p style="color: white;">
+                      Pellentesque posuere orci lobortis scelerisque blandit. Donec id tellus lacinia an, tincidunt
+                      risus ac, consequat velit.Donec id tellus lacinia an, tincidunt risus ac, consequat velit
+                    </p>
+                    <a style="text-decoration:underline;color:#f4b323;" href="#">Read More </a>
+                  </div>
+
+                  <div class="many">
+                    <ul class="site-links">
+
+                      <h4 class="font">Help</h4>
+
+                      <li><a href="#"">Search</a></li>
+
+                      <li><a href=" #"">Help</a></li>
+
+                      <li><a href="#"">Information</a></li>
+
+                      <li><a href=" #"">Privacy Policy</a></li>
+
+                      <li><a href="#"">Shipping Details</a></li>
+
+                    </ul>
+                  </div>
+
+                  <div class=" support">
+                    <h4 class="font" style="padding-left: 30px;">Support</h4>
+                          <ul class="site-links">
+
+                            <li><a href="#">Contact us</a></li>
+
+                            <li><a href="#">About us</a></li>
+
+                            <li><a href="#">Careers</a></li>
+
+                            <li><a href="#">Refunds & Returns</a></li>
+
+                            <li><a href="#">Deliveries</a></li>
+
+                          </ul>
+                  </div>
+
+
+
+
+                  <div class="info">
+                    <h4 class="font" style="padding-left: 30px;">Information</h4>
+                    <ul class="site-links">
+
+                      <li><a href="/search">Search Terms</a></li>
+
+                      <li><a href="/search">Advanced Search</a></li>
+
+                      <li><a href="/pages/faqs">Help & Faq's</a></li>
+
+                      <li><a href="/pages/contact-us">Store Location</a></li>
+
+                      <li><a href="/pages/shipping-details">Orders & Returns</a></li>
+
+                    </ul>
+                  </div>
+
+
+
+
+
+
+                <div class="contact">
+                    
+                  <h4 class="font">Contact us</h4> 
+
+                  <div class="address" style="color:#ffffff;">         
+                    <address>Karachi, Pakistan-78900</address>
+                  </div>
+
+                  <div class="contact-phone" style="color:#ffffff;">
+                    <i class="fas fa-phone"></i> &nbsp; Hotline : 8 (495) 989—20—11
+                  </div>
+
+                  <div class="office-hours" style="color:#ffffff;">
+                    <i class="far fa-clock"></i> &nbsp; Open - Close : 09:00 - 21:00
+                  </div>
+
+                  <div class="office-mail">
+                    <a style="color:#ffffff;" href="mailto:hello@somedomain.com" style="color:#ffffff;">
+                      <i class="far fa-envelope"></i> &nbsp; hello@somedomain.com</a>
+                  </div>
+
+                </div>
+
+
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+      <div class="bottom2">
+        <div class="social-contact">
+          <h4 class="font" style="padding-top: 60px;">Connect with us</h4>
+
+          <ul class="site-links-row">
+
+            <li>
+              <abbr title="Twitter">
+                <a target="blank" href="#"
+                  title="Twitter">
+                  <span class="fab fa-twitter" aria-hidden="true"></span>
+                </a>
+              </abbr>
+            </li>
+&nbsp;&nbsp;
+            <li>
+              <abbr title="Facebook">
+                <a target="blank" href="#"
+                  title="Facebook">
+                  <span class="fab fa-facebook" aria-hidden="true"></span>
+                </a>
+              </abbr>
+            </li>
+&nbsp;&nbsp;
+            <li>
+              <abbr title="Google">
+                <a target="blank" href="#" title="Google+"
+                  rel="publisher">
+                  <span class="fab fa-google-plus-g" aria-hidden="true"></span>
+                </a>
+              </abbr>
+            </li>
+&nbsp;&nbsp;                
+            <li>
+              <abbr title="Tumblr">
+                <a target="blank" href="#" title="Tumblr">
+                  <span class="fab fa-tumblr" aria-hidden="true"></span>
+                </a>
+              </abbr>
+            </li>
+&nbsp;&nbsp;                
+            <li>
+              <abbr title="Tumblr">
+                <a target="blank" href="#" title="Tumblr">
+                  <span class="fab fa-instagram" aria-hidden="true"></span>
+                </a>
+              </abbr>
+            </li>
+
+          </ul>
+        </div>
+
+
+
+
+
+        <div class="payment-methods" style="padding-top: 60px;">        
+          <ul class="site-links-row">
+            <li><a href="/cart"><i class="fab fa-cc-paypal"></i></a></li> &nbsp;&nbsp;
+            <li><a href="/cart"><i class="fab fa-cc-visa"></i></a></li>&nbsp;&nbsp;
+            <li><a href="/cart"><i class="fab fa-cc-amex"></i></a></li>&nbsp;&nbsp;
+            <li><a href="/cart"><i class="fab fa-cc-mastercard"></i></a></li>&nbsp;&nbsp;
+            <li><a href="/cart"><i class="fab fa-cc-diners-club"></i></a></li>&nbsp;&nbsp;
+            <li><a href="/cart"><i class="fab fa-cc-discover"></i></a></li>&nbsp;&nbsp; 
+          </ul>                  
+        </div>
+
+      </div>
+
+
+
+      <div class="bottom3">
+
+        <div class="footer1">
+          <p> Copyright <i class="far fa-copyright"></i> 2020, Mewajaat Karachi </p>
+        </div>
+        
+        <div class="footer2">
+          <ul class="site-links">
+            <li><a href="#">Search</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Information</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Shipping Details</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+                <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+                  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+                  crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+                  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+                  crossorigin="anonymous"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+                  integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+                  crossorigin="anonymous"></script>
+</body>
+
+</html>

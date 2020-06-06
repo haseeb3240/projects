@@ -1,6 +1,23 @@
+/* If the screen size is 601px or more, set the font-size of <p> to 80px */
+@media only screen and (min-width: 601px) {
+  p {
+    font-size: 30px;
+  }
+}
+
+/* If the screen size is 600px or less, set the font-size of <p> to 30px */
+@media only screen and (max-width: 600px) {
+  p {
+    font-size: 15px;
+  }
+}
+
+
+
 p{
   text-align: center;
-  min-width: 50px; max-width: 1000px; margin: auto;
+  margin: auto;
+  color: blueviolet;
 }
 
 h1, h2, a{
@@ -85,9 +102,22 @@ a:hover{
 }
 
 .btn a{
-  color: white;
+  color: black;
   font-style: bold;
+  text-decoration: none;
 }
 
+.btn a:hover{
+  color: white;
+}
+.btn{
+  color: black;
+  font-style: bold;
+  text-decoration: none;
+}
+
+.btn:hover{
+  color: white;
+}
 
 
